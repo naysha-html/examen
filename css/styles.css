@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+body {
+    background-color: rgb(249, 250, 255);
+    font-family: "Spicy Rice", cursive;
+    display: flex;
+    font-size: large;
+    justify-content: center;
+  }
+  h1 {
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    position: fixed; 
+    padding: 17px;
+    top: 0;
+    left: 0;
+    background-color: rgb(70, 1, 58);
+    color: floralwhite;
+    
+}
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-top: 6em;
+  }
+  .new-task{
+    padding: 3em;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 10px rgb(70, 1, 58);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+  
+
+  .title-task{
+    background-color: rgb(249, 250, 255);;
+    padding: 0.4em;
+    font-size: 100%;
+    font-family: "Questrial", sans-serif;
+    width: 40%;
+    border-radius: 5px;
+  }
+  select{
+    background-color: rgb(249, 250, 255);;
+    padding: 0.4em;
+    font-size: 80%;
+    font-family: "Questrial", sans-serif;
+    width: 100%;
+    border-radius: 5px;
+  }
+ .color{
+    background-color: rgb(249, 250, 255);;
+    padding: 0.4em;
+    font-size: 100%;
+    font-family: "Questrial", sans-serif;
+    width: 200%;
+    border-radius: 5px;
+  }
+
+  button {
+    font-family: "Questrial", sans-serif;
+    font-size: 90%;
+    color:floralwhite;
+    border-radius: 5px;
+    width: 60%;
+    height: 28px;
+    cursor: pointer;
+    background-color: rgb(70, 1, 58);
+    margin: 3px;
+  }
